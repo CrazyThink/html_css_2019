@@ -5,3 +5,23 @@ body {
     padding: 0;
 }
 
+.header {
+    background-color: #2a5451;
+}
+
+.gnb ul li a {
+    color: rgba(255,255,255,.7);
+}
+
+.gnb ul li a:hover {
+    color: #fff;
+}
+
+.new-mail {
+    background-color: #cdf0e7;
+    color: #214340;
+}
+
+.lnb ul li a {
+    color: #222;
+}
