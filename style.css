@@ -51,6 +51,23 @@ body {
     vertical-align: middle;
 }
 
+.gnb-mail-link {
+    position: relative;
+}
+
+.count-badge {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    color: #fff;
+    font-size: 11px;
+    background-color: red;
+    line-height: initial;
+    border-radius: 10px;
+    padding: 1px 3px;
+    font-weight: bold;
+}
+
 .contents {
     display: flex;
     flex: 1;
@@ -100,6 +117,7 @@ body {
 .mail-item-list {
     flex: 1;
     border-right: 1px solid #ddd;
+    overflow-y: auto;
 }
 
 .mail-content {
