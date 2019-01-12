@@ -25,10 +25,26 @@
         <section class="contents">
             <nav class="lnb">
                 <button class="new-mail">
-                    새 메일
+                    <span class="new-mail-icon"></span>
+                    <span>새 메일</span>
                 </button>
                 <ul>
-                    <li><a href="#">전체 메일</a></li>
+                    <li><a href="#">
+                        <span class="mail-icon"></span>
+                        안 읽은 메일
+                    </a></li>
+                    <li><a href="#">
+                            <span class="star-icon"></span>
+                        별표 메일
+                    </a></li>
+                    <li><a href="#">
+                            <span class="file-icon"></span>
+                        첨부 메일
+                    </a></li>
+                </ul>
+                <div class="divider"></div>
+                <ul>
+                    <li><a href="#" class="selected">전체 메일</a></li>
                     <li><a href="#">받은 메일함</a></li>
                     <li><a href="#">보낸 메일함</a></li>
                     <li><a href="#">임시 보관함</a></li>
@@ -38,7 +54,7 @@
             </nav>
             <section class="mail-list">
                 <header class="mail-list-header">
-                    안 읽은 메일
+                    전체 메일
                 </header>
                 <section class="mail-list-contents">
                     <div class="mail-item-list">
