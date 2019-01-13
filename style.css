@@ -68,7 +68,7 @@ body {
 
 .mail-list-contents {
     display: flex;
-    height: 100%;
+    flex: 1;
 }
 
 .mail-item-list {
