@@ -43,6 +43,7 @@ body {
     height: 100%;
     line-height: 50px;
     display: inline-block;
+    transition: all .5s;
 }
 
 .gnb ul li:not(:first-child) a:hover {
